@@ -1,0 +1,84 @@
+@font-face 
+{
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
+}
+
+.head1
+{
+	text-align: justify-all;
+	font-family: : Arvo;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-bottom: 20px;
+	margin-bottom: 105px;
+	padding-left: 30px;
+}
+
+body 
+{
+	background-image: url("./images/back.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}	
+
+h1,p
+{
+	font-family: Arvo ;
+	text-align: center;
+	color: white;
+}
+
+ #img-1
+ {
+ 	float: right;
+ 	padding-right: 80px;
+ 	padding-left: 30px;
+ 	display: inline-block;
+ }
+
+ #imgchampion 
+ {
+ 	padding: 60px 80px;
+ 	margin: 50px 40px; 
+ 	padding-right: 50px
+ 	margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    height:auto;
+ }
+
+#desc
+ {
+    padding: 15px;
+    text-align: center;
+}
+
+#imgchampion:hover
+{
+    border: 1px solid #000000;
+}
+.alpha-body1
+{
+	font-family: Arvo ;
+	text-align: center;
+	color: white;
+	background-image: url("./images/jp1.jpg");
+    background-attachment: fixed;	
+}
+
+.champbio
+
+{
+ margin-top: 80px; 
+ padding-right: 100px;
+ padding-left: 100px;
+}
+
+p#ut
+{
+	text-decoration: underline;
+}
