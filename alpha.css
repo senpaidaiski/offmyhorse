@@ -1,9 +1,13 @@
-@font-face 
+
+
+.video-back
 {
-  font-family: 'Arvo';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
+	 right: 0;
+    bottom: 0;
+	min-width: 100%;
+	min-height:  100%;
+	position: center;
+	padding-left: 23px;
 }
 
 .head1
@@ -15,6 +19,7 @@
 	border-bottom: 20px;
 	margin-bottom: 105px;
 	padding-left: 30px;
+	margin-right: 40px;
 }
 
 body 
@@ -25,10 +30,17 @@ body
 	background-repeat: no-repeat;
 }	
 
-h1,p
+h1
 {
 	font-family: Arvo ;
 	text-align: center;
+	color: white;
+}
+
+p
+{
+	font-family: Arvo ;
+	text-align: justify;
 	color: white;
 }
 
@@ -38,6 +50,16 @@ h1,p
  	padding-right: 80px;
  	padding-left: 30px;
  	display: inline-block;
+ }
+
+ #img-2
+ {
+ 	float: left;
+ 	padding-right: 30px;
+ 	padding-left: 0px;
+ 	display: inline-block;
+ 	width: 50%;
+ 	height: 60%;
  }
 
  #imgchampion 
@@ -80,5 +102,7 @@ h1,p
 
 p#ut
 {
+
+	text-align-last: center;
 	text-decoration: underline;
 }
